@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PetCare Application</title>
+    <title>Your Pet’s Best Digital Buddy 🐼🐼</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -21,7 +21,7 @@
                 <div class="flex items-center">
                     <a href="{{ url('/') }}" class="flex items-center">
                        
-                        <span class="ml-2 text-xl font-bold text-blue-600">Pet Care</span>
+                        <span class="ml-2 text-xl font-bold text-blue-600">Whisker Watch</span>
                     </a>
                 </div>
                 
