@@ -7,7 +7,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905C11 5.37 10.5 7 9 7H7a2 2 0 00-2 2v1" />
                     </svg>
                 </div>
-                <h1 class="text-3xl font-bold text-gray-800">Virtual Pet Care</h1>
+                <h1 class="text-3xl font-bold text-gray-800">Whisker Watch</h1>
                 <p class="text-sm text-gray-600 mt-1">Welcome back! Please sign in to continue</p>
             </div>
 
@@ -18,7 +18,7 @@
 
                 <!-- Email Address -->
                 <div>
-                    <x-input-label for="email" :value="__('Email')" class="text-gray-700 font-medium" />
+                    <x-input-label for="email" :value="__('Email')" class="text-black font-medium" />
                     <div class="mt-1 relative rounded-md shadow-sm">
                         <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                             <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -92,28 +92,13 @@
                 </p>
             </div>
 
-            <div class="mt-8 border-t border-gray-200 pt-6">
-                <div class="flex justify-center space-x-4">
-                    <span class="inline-flex items-center text-xs text-gray-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                        </svg>
-                        Secure Login
-                    </span>
-                    <span class="inline-flex items-center text-xs text-gray-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        Need Help?
-                    </span>
-                </div>
-            </div>
+          
         </div>
 
         <div class="mt-8 text-center text-xs text-gray-500">
-            <p>&copy; {{ date('Y') }} Virtual Pet Care System. All rights reserved.</p>
-            <div class="mt-2 flex justify-center space-x-4">
-                <a href="#" class="hover:text-gray-700">Privacy Policy</a>
+            <p>&copy; {{ date('Y') }} Whisker Watch. All rights reserved.</p>
+            <div class="mt-2 flex justify-center space-x-4 gap-4">
+                <a href="#" class="hover:text-gray-700">Privacy Policy</a> <br>
                 <a href="#" class="hover:text-gray-700">Terms of Service</a>
             </div>
         </div>

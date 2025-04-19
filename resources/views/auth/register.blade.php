@@ -20,7 +20,7 @@
         <!-- Left Side - Illustration & Welcome -->
         <div class="pet-gradient w-full md:w-2/5 p-8 text-white flex flex-col justify-between">
             <div>
-                <h2 class="text-3xl font-bold mb-6">Welcome to Virtual Pet Care</h2>
+                <h2 class="text-3xl font-bold mb-6">Whisker Watch</h2>
                 <p class="text-indigo-100 mb-6">Join our community of pet lovers and get the best care for your furry friends!</p>
                 
                 <div class="flex items-center mb-4">
